@@ -112,6 +112,7 @@ void onMqttMessage(char* topic, char* payload, AsyncMqttClientMessageProperties 
     Serial.print("bleu :");
     Serial.println(b);
   }
+  doc.clear();
 }
 
 void onMqttPublish(uint16_t packetId) {
